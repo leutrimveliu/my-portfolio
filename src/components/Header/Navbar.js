@@ -13,8 +13,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          EPIC
-          <i class="fab fa-firstdraft" />
+          Leutrim Veliu
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -32,7 +31,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link to="/aboutme" className="nav-links" onClick={closeMobileMenu}>
-              About Me
+              About me
             </Link>
           </li>
           <li className="nav-item">
@@ -47,15 +46,6 @@ function Navbar() {
           <li className="nav-item">
             <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
               Contact
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/sign-up"
-              className="nav-links-mobile"
-              onClick={closeMobileMenu}
-            >
-              Sign Up
             </Link>
           </li>
         </ul>
