@@ -67,8 +67,7 @@
 .menu-icon {
   display: none;
 }
-.link:hover {
-}
+
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;

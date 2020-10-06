@@ -1,6 +1,6 @@
 import React from "react";
 
 const Resume = () => {
-  return <div className="mediaQuery">Resume</div>;
+  return <div></div>;
 };
 export default Resume;
