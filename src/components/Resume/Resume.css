@@ -1,4 +1,8 @@
 .resumes {
-  background-color: rgb(42, 93, 122);
+  margin-top: 20px;
+  background-color: rgb(255, 254, 255);
   height: fit-content;
+}
+.edu {
+  padding-left: 200 px;
 }

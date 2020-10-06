@@ -6,7 +6,10 @@ const Header = () => {
   return (
     <div>
       <Navbar />
-      <div className="head row d-flex justify-content-center header m-0">
+      <div
+        className="head row d-flex justify-content-center header m-0"
+        style={{ border: "3px solid black" }}
+      >
         <div className="banner-text align-self-center ">
           <h1 className="responsive-headline d-flex justify-content-center ">
             I'm Leutrim Veliu.
