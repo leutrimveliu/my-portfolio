@@ -1,2 +1,4 @@
-@media screen and (max-width: 960px) {
+.resumes {
+  background-color: rgb(42, 93, 122);
+  height: fit-content;
 }
