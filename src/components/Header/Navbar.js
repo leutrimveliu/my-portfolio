@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-function Navbar() {
+const Navbar = () => {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+        <Link to="/" className="navbar-logo " onClick={closeMobileMenu}>
           Leutrim Veliu
         </Link>
         <div className="menu-icon" onClick={handleClick}>
@@ -25,15 +25,16 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/resume" className="nav-links" onClick={closeMobileMenu}>
-              Resume
-            </Link>
-          </li>
-          <li className="nav-item">
             <Link to="/aboutme" className="nav-links" onClick={closeMobileMenu}>
               About me
             </Link>
           </li>
+          <li className="nav-item">
+            <Link to="/resume" className="nav-links" onClick={closeMobileMenu}>
+              Resume
+            </Link>
+          </li>
+
           <li className="nav-item">
             <Link
               to="/projects"
@@ -52,6 +53,6 @@ function Navbar() {
       </nav>
     </>
   );
-}
+};
 
 export default Navbar;

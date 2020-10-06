@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Dropdown.css";
 
-function Dropdown() {
+const Dropdown = () => {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -14,6 +14,6 @@ function Dropdown() {
       ></ul>
     </>
   );
-}
+};
 
 export default Dropdown;
