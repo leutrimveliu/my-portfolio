@@ -1,0 +1,12 @@
+.head {
+  background-image: url("../../assets/back-img.jpg");
+  height: 400px;
+}
+.banner-text {
+  color: aliceblue;
+}
+.back-img {
+  background: repeat-x;
+  position: relative;
+  width: 100%;
+}
