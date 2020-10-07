@@ -5,12 +5,12 @@ import ProfilePic from "../../assets/Leutrim.png";
 const AboutMe = () => {
   return (
     <div
-      className="row about d-flex justify-content-center header m-0"
+      className="about row d-flex justify-content-center m-0"
       style={{ border: "3px solid black" }}
     >
-      <div className="profilePic d-flex ">
+      <div className=" profilePic d-flex ">
         <img
-          className="profilePhoto d-flex w-50 pb-5 "
+          className="profilePhoto d-flex  w-50 pb-5 "
           src={ProfilePic}
           alt="Leutrim Veliu"
         ></img>
