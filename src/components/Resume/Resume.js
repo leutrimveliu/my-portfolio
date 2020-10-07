@@ -3,13 +3,16 @@ import "./Resume.css";
 
 const Resume = () => {
   return (
-    <div className="resumes d-flex flex-column justify-content-center mt-5 ">
+    <div
+      className="resumes d-flex  flex-column justify-content-center mt-5 m-0"
+      style={{ border: "3px solid black" }}
+    >
       <div className="d-flex  justify-content-center mb-5">
         <div className=" col-lg-3">
           <h2>Education</h2>
           <hr
             className="horizon"
-            style={{ border: "2px solid blue", width: "135px" }}
+            style={{ borderTop: "3px solid blue", width: "135px" }}
           ></hr>
         </div>
         <div className=" col-lg-3 ">
@@ -28,7 +31,7 @@ const Resume = () => {
           <h2>Training</h2>
           <hr
             className="horizon"
-            style={{ border: "2px solid blue", width: "110px" }}
+            style={{ borderTop: "3px solid blue", width: "110px" }}
           ></hr>
         </div>
         <div className="col-lg-3 ">
@@ -57,7 +60,7 @@ const Resume = () => {
           <h2>Work Experience</h2>
           <hr
             className="horizon"
-            style={{ border: "2px solid blue", width: "220px" }}
+            style={{ borderTop: "3px solid blue", width: "220px" }}
           ></hr>
         </div>
         <div className="col-lg-3 ">
@@ -73,10 +76,10 @@ const Resume = () => {
       </div>
       <div className="d-flex  justify-content-center mb-5">
         <div className=" col-lg-3">
-          <h2>Peofessional Skills</h2>
+          <h2>Professional Skills</h2>
           <hr
             className="horizon"
-            style={{ border: "2px solid blue", width: "250px" }}
+            style={{ borderTop: "3px solid blue", width: "250px" }}
           ></hr>
         </div>
         <div className="col-lg-3 ">
@@ -99,8 +102,6 @@ const Resume = () => {
           </ul>
         </div>
       </div>
-
-      <hr></hr>
     </div>
   );
 };
