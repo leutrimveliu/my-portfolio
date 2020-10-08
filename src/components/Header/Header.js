@@ -1,11 +1,9 @@
 import React from "react";
-import Navbar from "./Navbar";
 
 import "./Header.css";
 const Header = () => {
   return (
     <div>
-      <Navbar />
       <div
         className="head  row d-flex flex-column justify-content-center header m-0 "
         style={{ border: "3px solid black" }}

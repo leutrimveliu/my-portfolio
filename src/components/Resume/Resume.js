@@ -3,14 +3,11 @@ import "./Resume.css";
 
 const Resume = () => {
   return (
-    <div className="resumes  d-flex flex-column justify-content-center mt-5 overflow-hidden ">
+    <div className="resumes  d-flex flex-column justify-content-center mt-5  ">
       <div className="d-flex  justify-content-center mb-5">
         <div className=" col-lg-3">
           <h2>Education</h2>
-          <hr
-            className="horizon"
-            style={{ border: "2px solid blue", width: "135px" }}
-          ></hr>
+          <hr className="horizon"></hr>
         </div>
         <div className=" col-lg-3 ">
           <h2>University of Business and Technology</h2>
@@ -26,10 +23,7 @@ const Resume = () => {
       <div className="d-flex  justify-content-center mb-5">
         <div className=" col-lg-3">
           <h2>Training</h2>
-          <hr
-            className="horizon"
-            style={{ borderTop: "3px solid blue", width: "110px" }}
-          ></hr>
+          <hr className="horizon"></hr>
         </div>
         <div className="col-lg-3 ">
           <h2>American Univeristy of Kosovo</h2>
@@ -55,10 +49,7 @@ const Resume = () => {
       <div className="d-flex  justify-content-center mb-5">
         <div className=" col-lg-3">
           <h2>Work Experience</h2>
-          <hr
-            className="horizon"
-            style={{ borderTop: "3px solid blue", width: "220px" }}
-          ></hr>
+          <hr className="horizon"></hr>
         </div>
         <div className="col-lg-3 ">
           <h2>Kosovo Education Center</h2>
@@ -74,10 +65,7 @@ const Resume = () => {
       <div className="d-flex  justify-content-center mb-5">
         <div className=" col-lg-3">
           <h2>Professional Skills</h2>
-          <hr
-            className="horizon"
-            style={{ borderTop: "3px solid blue", width: "250px" }}
-          ></hr>
+          <hr className="horizon"></hr>
         </div>
         <div className="col-lg-3 ">
           <ul>

@@ -24,11 +24,7 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <li className="nav-item">
-            <Link to="/aboutme" className="nav-links" onClick={closeMobileMenu}>
-              About me
-            </Link>
-          </li>
+
           <li className="nav-item">
             <Link to="/resume" className="nav-links" onClick={closeMobileMenu}>
               Resume

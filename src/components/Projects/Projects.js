@@ -8,10 +8,10 @@ import "./Projects.css";
 const Projects = () => {
   return (
     <div
-      className="porjectStyle   d-flex flex-column justify-content-center  "
+      className="porjectStyle   d-flex flex-column justify-content-center m-0 "
       style={{ border: "3px solid black" }}
     >
-      <div className="row d-flex justify-content-center mb-5">
+      <div className="row d-flex justify-content-center mb-5 m-0">
         <h1>Projects</h1>
       </div>
       <div className="d-flex  justify-content-center mb-5">
@@ -55,6 +55,7 @@ const Projects = () => {
             elementary things of React.
           </p>
         </div>
+
         <div className=" col-lg-4 ">
           {" "}
           <a
