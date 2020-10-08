@@ -1,0 +1,12 @@
+.head {
+  background-image: url("../../assets/back-img.jpg");
+  height: 390px;
+}
+.banner-text {
+  color: rgba(247, 245, 245, 0.884);
+}
+.back-img {
+  background: repeat-x;
+  position: relative;
+  width: 100%;
+}

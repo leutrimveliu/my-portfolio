@@ -1,0 +1,11 @@
+.resumes {
+  margin-top: 100px;
+  background-color: rgb(255, 254, 255);
+  height: fit-content;
+}
+.edu {
+  padding-left: 200 px;
+}
+.horizon {
+  border: 2px solid rgb(14, 102, 58);
+}
