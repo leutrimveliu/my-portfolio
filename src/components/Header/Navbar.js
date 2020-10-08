@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className=" d-flex navbar row m-0">
+      <nav className=" navbar   d-flex ">
         <Link to="/" className="navbar-logo " onClick={closeMobileMenu}>
           Leutrim Veliu
         </Link>

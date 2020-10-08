@@ -7,7 +7,7 @@ const Header = () => {
     <div>
       <Navbar />
       <div
-        className="head  row d-flex justify-content-center m-0 "
+        className="head  row d-flex flex-column justify-content-center header m-0 "
         style={{ border: "3px solid black" }}
       >
         <div className="banner-text align-self-center ">

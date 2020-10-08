@@ -3,16 +3,13 @@ import "./Resume.css";
 
 const Resume = () => {
   return (
-    <div
-      className="resumes d-flex  flex-column justify-content-center mt-5 m-0"
-      style={{ border: "3px solid black" }}
-    >
+    <div className="resumes  d-flex flex-column justify-content-center mt-5 overflow-hidden ">
       <div className="d-flex  justify-content-center mb-5">
         <div className=" col-lg-3">
           <h2>Education</h2>
           <hr
             className="horizon"
-            style={{ borderTop: "3px solid blue", width: "135px" }}
+            style={{ border: "2px solid blue", width: "135px" }}
           ></hr>
         </div>
         <div className=" col-lg-3 ">

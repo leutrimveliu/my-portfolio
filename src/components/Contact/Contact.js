@@ -27,7 +27,7 @@ export default function Contact() {
 
   return (
     <div>
-      <div className=" container mb-5">
+      <div className=" container   mb-5">
         <div className=" d-flex justify-content-center mb-5 mt-5 ">
           <h1>Contact Me</h1>
         </div>

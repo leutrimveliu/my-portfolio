@@ -8,7 +8,7 @@ import "./Projects.css";
 const Projects = () => {
   return (
     <div
-      className="porjectStyle row d-flex flex-column justify-content-center m-0 "
+      className="porjectStyle   d-flex flex-column justify-content-center  "
       style={{ border: "3px solid black" }}
     >
       <div className="row d-flex justify-content-center mb-5">
