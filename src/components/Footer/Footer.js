@@ -12,14 +12,14 @@ const Footer = () => {
         {" "}
         <GitHubIcon
           style={{ color: " white", fontSize: 85, paddingRight: 40 }}
-          className="git"
+          className="git icons"
           cursor="pointer"
           onClick={(event) =>
             window.open("https://github.com/leutrimveliu", "_blank")
           }
         />
         <FacebookIcon
-          className="fb"
+          className="fb icons"
           style={{ color: "white", fontSize: 85, paddingRight: 40 }}
           cursor="pointer"
           onClick={(event) =>
@@ -27,6 +27,7 @@ const Footer = () => {
           }
         />
         <LinkedInIcon
+          className="icons"
           style={{ color: "white", fontSize: 85, paddingRight: 40 }}
           cursor="pointer"
           onClick={(event) =>

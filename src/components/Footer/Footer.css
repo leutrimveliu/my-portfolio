@@ -10,3 +10,6 @@
 .credits {
   color: rgba(247, 245, 245, 0.884);
 }
+.icons:hover {
+  transform: scale(1.1);
+}

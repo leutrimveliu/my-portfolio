@@ -16,12 +16,14 @@ export default function Contact() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          console.log("SUCCESS", result.text, result.status);
+          alert("Email sent successfully!");
         },
         (error) => {
           console.log(error.text);
         }
       );
+
     e.target.reset();
   }
 
@@ -39,6 +41,7 @@ export default function Contact() {
                 className="form-control"
                 placeholder="Name"
                 name="name"
+                required
               />
             </div>
             <div className="col-8 form-group pt-2 mx-auto">
@@ -47,6 +50,7 @@ export default function Contact() {
                 className="form-control"
                 placeholder="Email Address"
                 name="email"
+                required
               />
             </div>
             <div className="col-8 form-group pt-2 mx-auto">
@@ -55,6 +59,7 @@ export default function Contact() {
                 className="form-control"
                 placeholder="Subject"
                 name="subject"
+                required
               />
             </div>
             <div className="col-8 form-group pt-2 mx-auto">
@@ -65,6 +70,7 @@ export default function Contact() {
                 rows="8"
                 placeholder="Your message"
                 name="message"
+                required
               ></textarea>
             </div>
             <div className="col-8 pt-3 mx-auto">
