@@ -1,3 +1,4 @@
+import { blue } from "@material-ui/core/colors";
 import React from "react";
 import "./Resume.css";
 
@@ -79,10 +80,34 @@ const Resume = () => {
               <h5>Java</h5>
             </li>
             <li>
-              <h5>.NET CORE</h5>
+              <h5>Wordpress</h5>
             </li>
+
             <li>
               <h5>Use of GIT</h5>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="d-flex  justify-content-center mb-5">
+        <div className=" col-lg-3">
+          <h2>Other Skills</h2>
+          <hr className="horizon"></hr>
+        </div>
+        <div className="col-lg-3 ">
+          <ul>
+            <li>
+              <h5>Adaptability</h5>
+            </li>
+            <li>
+              <h5>Motivation</h5>
+            </li>
+            <li>
+              <h5>Problem-solving</h5>
+            </li>
+
+            <li>
+              <h5>Analytical skills</h5>
             </li>
           </ul>
         </div>
